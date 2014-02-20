@@ -5,7 +5,7 @@ editorApp.controller('signupCtrl', function ($scope, $location, $http) {
 
     $scope.submit = function () {
         $scope.saving = true;
-        $http.post("/signup/post", $scope.form).success(function () {
+        $http.post(window.location + "post", $scope.form).success(function () {
             $scope.saved = true;
         });
     };
