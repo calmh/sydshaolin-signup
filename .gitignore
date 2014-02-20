@@ -1,0 +1,7 @@
+server
+*.gz
+*.gpg
+build
+assets.out.go
+table-editor
+signup
